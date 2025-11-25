@@ -15,27 +15,27 @@ Bienvenue dans ce projet d’analyse intelligente des commentaires Facebook pour
 
 ## 🗂️ Architecture du projet
 
-sentiment-project/
+sentiment-project/<br>
+│ <br>
+├── data/<br>
+│   ├── comments.csv<br>
+│   ├── comments_cleaned.csv<br>
+│   ├── comments_cleaned_wave.csv<br>
+│   ├── comments_combined_cleaned_sentiment.csv<br>
+│   ├── comments_orangeMoney_cleaned.csv<br>
+│   ├── comments_wave.csv<br>
+│   ├── final_database.csv<br>
+│   └── facebook.json       # À créer à partir de vos cookies Facebook !<br>
+│<br>
+├── notebooks/<br>
+│   ├── scraping.ipynb<br>
+│   ├── text_mining.ipynb<br>
+│   └── combine_data.ipynb<br>
 │
-├── data/
-│   ├── comments.csv
-│   ├── comments_cleaned.csv
-│   ├── comments_cleaned_wave.csv
-│   ├── comments_combined_cleaned_sentiment.csv
-│   ├── comments_orangeMoney_cleaned.csv
-│   ├── comments_wave.csv
-│   ├── final_database.csv
-│   └── facebook.json       # À créer à partir de vos cookies Facebook !
-│
-├── notebooks/
-│   ├── scraping.ipynb
-│   ├── text_mining.ipynb
-│   └── y.ipynb
-│
-├── dashboard.py
-├── dashboard_banque.py
-├── requirements.txt
-├── README.md
+├── dashboard.py<br>
+├── dashboard_banque.py<br>
+├── requirements.txt<br>
+├── README.md<br>
 
 
 ---
