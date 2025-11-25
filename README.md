@@ -33,7 +33,6 @@ sentiment-project/<br>
 │   └── combine_data.ipynb<br>
 │
 ├── dashboard.py<br>
-├── dashboard_banque.py<br>
 ├── requirements.txt<br>
 ├── README.md<br>
 
@@ -42,10 +41,10 @@ sentiment-project/<br>
 
 ## ⚠️ Préparation des cookies Facebook
 
-Pour pouvoir scraper les commentaires Facebook, **vous devez télécharger vos cookies Facebook** après connexion dans votre navigateur.  
+Pour pouvoir scraper les commentaires Facebook, **vous devez télécharger vos cookies Facebook** après connexion dans votre navigateur.  <br>
 Sauvegardez le fichier au format `.json` en le nommant **facebook.json**, puis placez-le dans le dossier `data/` du projet.
 
-> 🔍 Cherchez sur Google : « Comment exporter ses cookies Facebook en .json »  ou via l'extension `J2TEAM Cookies`
+> 🔍 Cherchez sur Google : « Comment exporter ses cookies Facebook en .json »  ou via l'extension `J2TEAM Cookies` <br>
 > 📁 Fichier attendu : `data/facebook.json`
 
 ---
@@ -66,8 +65,8 @@ Sauvegardez le fichier au format `.json` en le nommant **facebook.json**, puis p
 
 ## ⚡ Installation
 
-git clone https://github.com/TON-USERNAME/sentiment-project.git
-cd sentiment-project
+git clone https://github.com/TON-USERNAME/sentiment-project.git <br>
+cd sentiment-project <br>
 pip install -r requirements.txt
 
 
@@ -83,7 +82,6 @@ pip install -r requirements.txt
 4. **Visualisez les résultats avec les dashboards :**
     ```
     streamlit run dashboard.py
-    streamlit run dashboard_banque.py
     ```
 
 ---
